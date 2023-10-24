@@ -26,7 +26,7 @@
 }
 .mainWrapper .heroMain .tagLine p {
   color: white;
-  font-size: 2.08rem;
+  font-size: 1.6rem;
 }
 .mainWrapper .heroMain h1 {
   opacity: 0;
@@ -89,6 +89,9 @@
   .tagLine {
     max-width: 75%;
     padding: 0;
+  }
+  .mainWrapper .heroMain .tagLine .heroPara {
+    font-size: 2.08rem;
   }
 }
 @media screen and (min-width: 560px) {
