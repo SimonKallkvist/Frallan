@@ -5,7 +5,7 @@
   background: $primaryColor;
   width: 100%;
   gap: 0.8rem;
-  padding: 2rem;
+  padding: 2rem 1rem;
   position: relative;
   margin-top: 2rem;
   // bottom: 0;
@@ -21,6 +21,12 @@
     img {
       height: 100%;
     }
+  }
+
+  .footerLink {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
   }
 }
 

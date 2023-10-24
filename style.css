@@ -262,7 +262,7 @@ li {
   background: #ccd5ae;
   width: 100%;
   gap: 0.8rem;
-  padding: 2rem;
+  padding: 2rem 1rem;
   position: relative;
   margin-top: 2rem;
 }
@@ -275,6 +275,11 @@ li {
 }
 .footWrapper .footerLogo img {
   height: 100%;
+}
+.footWrapper .footerLink {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 @media screen and (min-width: 560px) {
