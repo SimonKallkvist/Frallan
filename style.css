@@ -631,6 +631,7 @@ li {
   flex-direction: column;
   align-items: center;
   background: #e9edc9;
+  position: relative;
   padding: 3rem;
   gap: 2rem;
   width: 100%;
@@ -650,14 +651,14 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 80%;
+  max-width: 100%;
   gap: 1rem;
   align-items: center;
 }
 .referenceContainer .refs .refInfo .baguetteRating {
   display: flex;
   gap: 1rem;
-  height: 5rem;
+  height: 2rem;
   position: relative;
 }
 .referenceContainer .refs .refInfo .baguetteRating img {
@@ -674,8 +675,7 @@ li {
   width: auto;
 }
 .referenceContainer .refs img {
-  width: 40rem;
-  height: 40rem;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   box-shadow: 2px 2px 12px violet;
