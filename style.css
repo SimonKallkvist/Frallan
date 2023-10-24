@@ -657,7 +657,8 @@ li {
 }
 .referenceContainer .refs .refInfo .baguetteRating {
   display: flex;
-  gap: 1rem;
+  justify-content: center;
+  gap: 0.5rem;
   height: 2rem;
   position: relative;
 }
