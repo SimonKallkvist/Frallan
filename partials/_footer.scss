@@ -36,6 +36,11 @@
     flex-direction: row;
     justify-content: space-around;
 
+    .footerLink {
+      justify-content: center;
+      width: auto;
+    }
+
     .copyright {
       position: absolute;
       bottom: 1rem;

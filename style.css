@@ -292,6 +292,10 @@ li {
     flex-direction: row;
     justify-content: space-around;
   }
+  .footWrapper .footerLink {
+    justify-content: center;
+    width: auto;
+  }
   .footWrapper .copyright {
     position: absolute;
     bottom: 1rem;
